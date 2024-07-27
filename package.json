@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/napi-create-complex-like",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create a Node-API value representing a complex number-like object.",
   "license": "Apache-2.0",
   "author": {
@@ -39,19 +39,19 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-napi-status-ok": "^0.2.1",
-    "@stdlib/complex-float64": "^0.2.1",
-    "@stdlib/complex-imag": "^0.2.1",
-    "@stdlib/complex-real": "^0.2.1",
-    "@stdlib/napi-argv": "^0.2.1",
-    "@stdlib/napi-argv-complex128": "github:stdlib-js/napi-argv-complex128#main",
-    "@stdlib/napi-create-double": "github:stdlib-js/napi-create-double#main",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/assert-napi-status-ok": "^0.2.2",
+    "@stdlib/complex-float64-ctor": "^0.0.1",
+    "@stdlib/complex-float64-imag": "^0.1.0",
+    "@stdlib/complex-float64-real": "^0.1.1",
+    "@stdlib/napi-argv": "^0.2.2",
+    "@stdlib/napi-argv-complex128": "^0.1.0",
+    "@stdlib/napi-create-double": "^0.0.2",
+    "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.2.1",
-    "@stdlib/complex-float32": "^0.2.1",
-    "@stdlib/utils-try-require": "^0.2.1",
+    "@stdlib/assert-is-browser": "^0.2.2",
+    "@stdlib/complex-float32-ctor": "^0.0.1",
+    "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
